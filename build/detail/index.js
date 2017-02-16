@@ -1,6 +1,6 @@
 // {"framework": "Rax"}
 // {"framework" : "Rax"}
-define("order/index", function(require) {/******/ (function(modules) { // webpackBootstrap
+define("detail/index", function(require) {/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -46,9 +46,9 @@ define("order/index", function(require) {/******/ (function(modules) { // webpac
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	(function webpackMissingModule() { throw new Error("Cannot find module \"order/index.jsx\""); }());
+	(function webpackMissingModule() { throw new Error("Cannot find module \"detail/index.jsx\""); }());
 
 
 /***/ }
-/******/ ])}); require("order/index");;
+/******/ ])}); require("detail/index");;
 //# sourceMappingURL=index.js.map
