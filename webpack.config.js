@@ -53,11 +53,9 @@ var config = {
     },
     // vendor库内置后，需要在业务代码打包时排除vendor库
     "externals": [{
-        "weex-rx": "commonjs rax",
         "rax": "commonjs rax",
         "nuke": "commonjs nuke",
-        "QAP-SDK": "commonjs QAP-SDK",
-        "genv": "commonjs genv",
+        "QAP-SDK": "commonjs QAP-SDK"
     }],
     resolve: {
         root: srcPath,
@@ -67,12 +65,6 @@ var config = {
         }
 
     },
-
-    // "externals": [{
-    //     "rax": "commonjs rax",
-    //     "nuke": "commonjs nuke",
-    //     "QAP-SDK": "commonjs QAP-SDK",
-    // }],
 
     module: {
         loaders: [{
